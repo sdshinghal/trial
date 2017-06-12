@@ -21,3 +21,11 @@ class Snippet(models.Model):
         """internal"""
         ordering = ('created', )
 
+
+class FileUpload(models.Model):
+    """Upload files"""
+    owner = models.CharField(max_length=50, blank=True, null=True)
+    date = models.DateField(blank=True, null=True)
+    file = models.FileField(blank=True, null=True)
+
+

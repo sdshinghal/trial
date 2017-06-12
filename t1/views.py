@@ -3,8 +3,8 @@ from rest_framework.generics import ListAPIView
 from .models import Post
 from .serializers import PostSerializer
 
-from hi.models import Snippet
-from hi.serializers import SnippetSerializer
+from t1.models import Snippet
+from t1.serializers import SnippetSerializer
 
 from django.http import Http404
 from rest_framework.views import APIView
