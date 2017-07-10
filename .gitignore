@@ -1,0 +1,14 @@
+he__/*
+*.pyc
+db.sqlite3
+.idea/
+.env/
+migrations/
+playbook.retry
+logs/*
+*.yml
+celerybeat-schedule
+static/
+development.py
+production.py
+uploaded_media/
