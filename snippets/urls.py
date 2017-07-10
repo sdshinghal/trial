@@ -8,3 +8,5 @@ urlpatterns = [
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
+
+# I've added a comment here
